@@ -7,9 +7,9 @@ import GameBoard from "./GameBoard";
 //create your first component
 const Home = () => {
 	const [selectedWeapon, setSelectedWeapon] = useState('')
+	
 
 	const weaponSelection = (weapon) => {setSelectedWeapon(weapon)}
-console.log(selectedWeapon)
 	return (
 		<div className="container-fluid min-vh-100 text-white d-flex flex-column align-items-center p-2" style={{background:'rgb(63, 62, 62)'}}>
 			<Title/>
